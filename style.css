@@ -1,0 +1,190 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    border: 0px;
+}
+
+
+body {
+    margin: 0;
+    color: white;
+    font-family: 'Helvetica Neue', sans-serif;
+    background-image: url('cmu.jpeg');
+    img alt = "picture of cmu from hamerschlag hall"
+    background-position: center bottom;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+/*navigation*/
+nav{
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+/*user name*/
+h1.left-notice{
+    color: black;
+    font-size: 28px;
+    padding-left:18%;
+    padding-top: 10%;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20%;
+    margin-top: 8%;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    background-color: rgba(201, 35, 34, 0.7);
+    border-radius: 5px;
+    color: black;
+    padding: 4px 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 2px;
+    cursor: pointer;
+}
+
+
+
+.content{
+    padding: 18%;
+}
+
+.content h1 {
+    text-align: center;
+    padding-bottom: 2%;
+    color: black;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+
+#tabs {
+    padding-top: 8%;
+}
+
+/*the three tabs*/
+#tabs a{
+    background-color: rgb(201, 35, 34);
+    border-radius: 5px;
+    color: white;
+    padding: 10px 6px;
+    text-align: center;
+    text-decoration: none;
+    align-content: center;
+    display: block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+    width: 80%;
+    margin-left: 10%;
+}
+
+/*consent form*/
+#consent a{
+    background-color: rgb(201, 35, 34);
+    border-radius: 5px;
+    color: white;
+    padding: 10px 6px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+    width: 50%;
+}
+
+.progress{
+    padding-left:18%;
+    padding-top: 1%;
+}
+
+.content h2{
+    color: black;
+    padding-bottom: 2%;
+}
+
+.dot {
+  height: 20px;
+  width: 20px;
+  margin-left: 4px;
+  border: 1px solid black;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot-black{
+  height: 20px;
+  width: 20px;
+  margin-left: 4px;
+  border: 1px solid black;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: black;
+
+}
+
+/*consent form*/
+.scroll {
+                margin:4px, 4px;
+                color: black;
+                padding:4px;
+                background-color: white;
+                border-radius: 5px;
+                width: 50%;
+                height: 350px;
+                overflow-x: hidden;
+                overflow-y: auto;
+                text-align:justify;
+            }
+
+/*symptoms form*/
+.scroll-align {
+                margin: 4px, 4px;
+                color: black;
+                padding:4px;
+                background-color: white;
+                border-radius: 5px;
+                width: 80%;
+                height: 350px;
+                overflow-x: hidden;
+                overflow-y: auto;
+                text-align:justify;
+            }
+
+/*radio options*/
+ input[type=radio],
+    input.radio {
+      float: left;
+      clear: none;
+      margin: 2px 0 0 2px;
+    }
+
+label {
+      float: left;
+      clear: none;
+      display: block;
+      padding: 0px 1em 0px 8px;
+    }
+
+p.questions {
+    font-size: 23px;
+    color: #C92322;
+}
+    
